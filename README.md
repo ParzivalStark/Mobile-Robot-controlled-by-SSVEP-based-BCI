@@ -1,2 +1,11 @@
-# Mobile-Robot-controlled-by-SSVEP-based-BCI
-Code and documentation of the project
+# Active navigation of a mobile robot controlled by an SSVEP based BCI
+
+## Description
+
+## Integration
+
+### BCI system
+
+### SSVEP system
+
+### Robot system
