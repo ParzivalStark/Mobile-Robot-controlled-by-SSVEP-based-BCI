@@ -4,8 +4,8 @@
 
 ## Integration
 
-### BCI system
+### [BCI system](BCI%20system)
 
-### SSVEP system
+### [SSVEP system](SSVEP%20system)
 
-### Robot system
+### [Robot system](Robot%20system)
