@@ -27,4 +27,4 @@ the matrix was turned on, otherwise it was turned off. Since all matrices were c
 ## Usage
 Arguments were added to allow a different number of stimuli and frequencies according to the needs. For the number of matrices "-n" is used along with the number, then the frequencies "-w" is used with the frequencies separated by spaces, one last argument was added "-t", this is a flag that makes the program stop after 10 seconds and displays a counter to be able to determine the maximum frequency.  
 Finally, it is necesarry to use sudo permissions to acces the SPI interface.  
-For example if 4 stimuli with frequencies 10, 12, 15 and 17 with no test flag the following command will be used *sudo python3 ![SSVEP.py](SSVEP.py) -n 4 -w 10 12 15 17*
+For example if 4 stimuli with frequencies 10, 12, 15 and 17 with no test flag the following command will be used **sudo python3 [SSVEP.py](SSVEP.py) -n 4 -w 10 12 15 17**
