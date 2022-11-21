@@ -16,7 +16,10 @@ The camera used is a PIS-1685 camera module for Raspberry Pi Camera Board V2, th
 The raw image was transmitted via UDP, in order to do it the image it was first encoded, compressed into a pickle, sent and then the process was reverted when recieved in the main computer to apply some algorithms to use ArUco codes to measure distance. [Code](puzzlebot_camera.py)
 
 ### Calibration
-To be able to measure distance the camera needed to be calibated, this [code](capture_calibration_images.py) was used to take images of a calibration board, that can be seen in the following image, after taking and saving the pictures, another [script](camera_calibration.py) was used to get the parameters of the calibration. The full procces can be seen on this [video](https://www.youtube.com/watch?v=JHeNger8B2E)  ![Calibration board](../Reference%20images/calibration_board.png)  
+To be able to measure distance the camera needed to be calibated, this [code](capture_calibration_images.py) was used to take images of a calibration board, that can be seen in the following image, after taking and saving the pictures, another [script](camera_calibration.py) was used to get the parameters of the calibration. The full procces can be seen on this [video](https://www.youtube.com/watch?v=JHeNger8B2E)  
+<p align="center">
+  <img src="../Reference%20images/calibration_board.png"/>
+</p>
 
 ### ARUCO codes
 

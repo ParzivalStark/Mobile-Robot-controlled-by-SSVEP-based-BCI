@@ -16,7 +16,9 @@ The Matrices had the MAX7219 driver and were controlled with the Luma LED Matrix
 can be found at https://luma-led-matrix.readthedocs.io/en/latest/install.html  
 
 The matrix has five input pins which are connected as it is indicated in the following image.  
-![Matrix connection with Raspberry](../Reference%20images/MatrixConnection.png)  
+<p align="center">
+  <img src="../Reference%20images/MatrixConnection.png"/>
+</p>  
 
 The board has two set of pins to enable daisy-chaning, just connecting the output pins to the input ones in the next matrix. Any number of matrices can be chained, as long as the right amount of current is supplied.
 
