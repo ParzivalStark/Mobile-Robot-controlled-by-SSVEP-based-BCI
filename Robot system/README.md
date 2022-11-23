@@ -21,10 +21,14 @@ To be able to measure distance the camera needed to be calibated, this [code](ca
   <img src="../Reference%20images/calibration_board.png"/>
 </p>
 
-### ARUCO codes
-
+### ArUco markers
+To give indications durign the navigation task, AruCo markers were used, this codes are binary square markers that enable augmented reality and can be used for pose estimation. Using this we calculate distance between the robot and the code to put arrows in the camera when the person needed to turn to continue with the route.  
+<p align="center">
+  <img src="../Reference%20images/aruco4.png"/>
+</p>
 
 #### Generation
+The OpenCV library has a function to generate ArUco markers, using the dictionay, id and size of the marker it´s possible to generate and save markers ready to be used. This [code](https://github.com/bioruben/data_live_2022/blob/main/generate_aruco.py) generates markers with de original dictonary passing the id as an argument.
 
 #### Distance
 
