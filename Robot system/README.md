@@ -3,7 +3,7 @@
 ## Puzzlebot
 Puzzlebot is a mobile robot developed by Manchester Robotics, it uses a diferental drive controlled by a special board based on an ESP32 to control the motors and recieved the information from the encoders. It communicates via ROS serial with a Jetson Nano 2GB to enable complex algorithms to control the robot using ROS. It also has a camera module v2 from Raspberry to use computer vision algorithms.
 <p align="center">
-  <img src="../Reference%20images/puzzlebot.jpeg"/>
+  <img src="../Reference%20images/puzzlebot.jpeg" width="400" height="300"/>
 </p>
 
 ### Movement with ROS
@@ -21,13 +21,13 @@ The raw image was transmitted via UDP, in order to do it the image it was first 
 ### Calibration
 To be able to measure distance the camera needed to be calibated, this [code](capture_calibration_images.py) was used to take images of a calibration board, that can be seen in the following image, after taking and saving the pictures, another [script](camera_calibration.py) was used to get the parameters of the calibration. The full procces can be seen on this [video](https://youtu.be/JHeNger8B2E).  
 <p align="center">
-  <img src="../Reference%20images/calibration_board.png"/>
+  <img src="../Reference%20images/calibration_board.png" width="360" height="255"/>
 </p>
 
 ### ArUco markers
 To give indications durign the navigation task, AruCo markers were used, this codes are binary square markers that enable augmented reality and can be used for pose estimation. Using this we calculate distance between the robot and the code to put arrows in the camera when the person needed to turn to continue with the route.  
 <p align="center">
-  <img src="../Reference%20images/aruco4.png"/>
+  <img src="../Reference%20images/aruco4.png" width="250" height="250"/>
 </p>
 
 #### Generation
@@ -39,5 +39,5 @@ To measure the distance between the robot and the markers, there's a function th
 #### Arrows
 By calculating the distance it was possible to give indications to the persons in the same camera, when they were to close, an arrow appeared on the center of the image to indicate that a turn was neccesary to avoid a collision. Also at the end of the route a "Good job" message appeared to indicate the succesful completition of the task.  
 <p align="center">
-  <img src="../Reference%20images/goal.png"/>
+  <img src="../Reference%20images/goal.png" width="273" height="158"/>
 </p>
