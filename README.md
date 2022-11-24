@@ -1,5 +1,7 @@
 # Active navigation of a mobile robot controlled by an SSVEP based BCI
 
+#### Authors: Luis H. Vaca  
+
 This project seeks to use the BCI "BrainTec" bassed on SSVEP to control a mobile robot "Puzzlebot" in a navigation task on a real environment. This repository has the documentation of the code implemented to achieve this.
 
 ## Integration
