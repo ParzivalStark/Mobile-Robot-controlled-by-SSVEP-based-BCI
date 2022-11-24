@@ -25,7 +25,7 @@ To be able to measure distance the camera needed to be calibated, this [code](ca
 </p>
 
 ### ArUco markers
-To give indications durign the navigation task, AruCo markers were used, this codes are binary square markers that enable augmented reality and can be used for pose estimation. Using this we calculate distance between the robot and the code to put arrows in the camera when the person needed to turn to continue with the route.  
+To give indications during the navigation task, AruCo markers were used, this codes are binary square markers that enable augmented reality and can be used for pose estimation. Using this we calculate distance between the robot and the code to put arrows in the camera when the person needed to turn to continue with the route.  
 <p align="center">
   <img src="../Reference%20images/aruco4.png" width="250" height="250"/>
 </p>
