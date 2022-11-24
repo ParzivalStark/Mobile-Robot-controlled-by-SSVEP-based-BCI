@@ -12,5 +12,5 @@ The system consist of two main parts that are described in the following section
 The diagram of the different parts is shown in the following figure, where the idea is that the person receives the stimuli of the leds, along with the camera from the robot, the person has electrods connected to be able to get their EEG signals, which are proccessed by the BCI to get the intention of the person, this is passed as a movement to the robot which has the camera attached to it, therefore moving the image in the person's screen who has to act accordingly to finish the navigation task.
 
 <p align="center">
-  <img src="../Reference%20images/calibration_board.png" width="512" height="750"/>
+  <img src="Reference%20images/diagram.png" width="512" height="750"/>
 </p>
