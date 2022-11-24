@@ -34,4 +34,7 @@ The OpenCV library has a function to generate ArUco markers, using the dictionay
 To measure the distance between the robot and the markers, there's a function that can estimate the pose of the code using the corners of the detected marker, the real size of the marker and the calibration parameters. The [code](distance_aruco.py) used to measure the distance is based on this [video](https://youtu.be/mn-M6Qzx6SE).  
 
 #### Arrows
-By calculating the distance it was possible to give indications to the persons in the same camera, when they were to close, an arrow appeared on the center of the image to indicate that a turn was neccesary to avoid a collision. Also at the end of the route a "Good job" message appeared to indicate the succesful completition of the task.
+By calculating the distance it was possible to give indications to the persons in the same camera, when they were to close, an arrow appeared on the center of the image to indicate that a turn was neccesary to avoid a collision. Also at the end of the route a "Good job" message appeared to indicate the succesful completition of the task.  
+<p align="center">
+  <img src="../Reference%20images/goal.png"/>
+</p>
