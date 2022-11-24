@@ -2,6 +2,9 @@
 
 ## Puzzlebot
 Puzzlebot is a mobile robot developed by Manchester Robotics, it uses a diferental drive controlled by a special board based on an ESP32 to control the motors and recieved the information from the encoders. It communicates via ROS serial with a Jetson Nano 2GB to enable complex algorithms to control the robot using ROS. It also has a camera module v2 from Raspberry to use computer vision algorithms.
+<p align="center">
+  <img src="../Reference%20images/puzzlebot.jpeg"/>
+</p>
 
 ### Movement with ROS
 The robot received the movements via UDP, and depending on the move the velocities were change accordingly by passing them to the corresponding topic. Each move lasted 300 ms, this timer was reseted each time the same move was recieved to ensure a continous movement. [Code](puzzlebot_movement.py)  

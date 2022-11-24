@@ -1,6 +1,9 @@
 # Description of the SSVEP system
 In order to create the stimuli for the SSVEP phenomena, some led matrices were used that were controlled with a
 Raspberry Pi 3B+, the communication was done via SPI protocol.  
+<p align="center">
+  <img src="../Reference%20images/led.png"/>
+</p>
 
 ## Raspberry Pi configuration
 In order to use the SPI protocol on the Raspberry Pi, it is necesary to first activate it, since it is turned off
