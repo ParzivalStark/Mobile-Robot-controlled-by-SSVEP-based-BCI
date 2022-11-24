@@ -17,7 +17,7 @@ args = parser.parse_args()
 # Create socket to transmit image
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_SNDBUF, 10000000)
-# IP and port of the reciving computer
+# IP and port of the receiving computer
 serverip = args.ip or '192.168.0.50' # Use default ip if no arguments were passed
 serverport = 4000
 
