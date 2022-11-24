@@ -28,8 +28,9 @@ To give indications durign the navigation task, AruCo markers were used, this co
 </p>
 
 #### Generation
-The OpenCV library has a function to generate ArUco markers, using the dictionay, id and size of the marker it´s possible to generate and save markers ready to be used. This [code](https://github.com/bioruben/data_live_2022/blob/main/generate_aruco.py) generates markers with de original dictonary passing the id as an argument.
+The OpenCV library has a function to generate ArUco markers, using the dictionay, id and size of the marker it's possible to generate and save markers ready to be used. This [code](https://github.com/bioruben/data_live_2022/blob/main/generate_aruco.py) generates markers with de original dictonary passing the id as an argument.  
 
 #### Distance
+To measure the distance between the robot and the markers, there's a function that can estimate the pose of the code using the corners of the detected marker, the real size of the marker and the calibration parameters.  
 
 #### Signals
